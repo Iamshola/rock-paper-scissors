@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rock, Paper and Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Fascinate|Noto+Sans+TC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fascinate&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <main class="container">
+      <h1>Play!</h1>
+      <div class="choice">
+        <button class="selector" id="rock"></button>
+        <button class="selector" id="paper"></button>
+        <button class="selector" id="scissors"></button>
+      </div>
+      <div class="result">
+        <h2>Who will win the first game?</h2>
+        <div class="scores">
+          <div class="choices">
+            <p class="displayed-score1">Player 1 chose:<br> <span id="user-chose">-</span></p>
+            <p class="display-score2">Computer's chose: <br><span id="computer-chose">-</span></p>
+          </div>
+          <p class="total-score">Your score: <span id="user-score">0</span></p>
+          <p class="total-score">Computer's score: <span id="computer-score">0</span></p>
+          <button id="reset-button">Reset Score</button>
+        </div>
+      </div>
+    </main>
+</body>
+</html>
