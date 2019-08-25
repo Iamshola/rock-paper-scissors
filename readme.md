@@ -5,6 +5,8 @@
 
 Your task is to build a "Rock, Paper, Scissors" game that you can play against the computer!
 
+Game can be played here : https://iamshola.github.io/rock-paper-scissors/
+
 ### Requirements
 
 * When a user makes their choice (rock, paper or scissors), you should also randomly generate a computer choice
