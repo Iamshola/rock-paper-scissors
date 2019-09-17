@@ -31,6 +31,39 @@ Your task is to build a "Rock, Paper, Scissors" game that you can play against t
 ### Timeframe:
 1 day
 
+### Snippet of Code
+
+#### Button Event Listeners
+
+```  JavaScript
+rock.addEventListener('click', () => game('rock', getComputerChoice()))
+paper.addEventListener('click', () => game('paper', getComputerChoice()))
+scissors.addEventListener('click', () => game('scissors', getComputerChoice()))
+lizard.addEventListener('click', () => game('lizard', getComputerChoice()))
+spock.addEventListener('click', () => game('spock', getComputerChoice()))
+
+```
+
+#### Resetting Game
+
+``` JavaScript
+const resetScores = () => {
+  computerScore = 0
+  computerScoreSpan.innerHTML = computerScore
+  userScore = 0
+  userScoreSpan.innerHTML = userScore
+  userchoseSpan.innerHTML = '-'
+  computerchoseSpan.innerHTML = '-'
+}
+resetButton.addEventListener('click', resetScores)
+```
+
+
+### Improvements
+
+I would have loved to spend more time refractoring my code in order to practice best code praticses.
+
+
 
 ### Course Curriculum
   Details of my training and links to more projects whilst at General Assembly -  12 Week Immersive.
